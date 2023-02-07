@@ -2,16 +2,13 @@
 
 int main ()
 {
-   char x = 'a' ;
-   char y = 'b' ; 
-   int num = 42;
+int a;
+int b; 
 
-printf("x era: %c\n", x);
-printf("y era: %c\n", y);
-printf("a era: %d\n", num);
-printf("inseriisci due caratteri \n");
-scanf("%c %c %d", &x, &y, &num);
-printf("x è diventato: %c\n", x);   
-printf("y è diventato: %c\n", y);
-printf("ao\n");
+printf("inserisci un numero a\n");
+scanf("%d", &a);
+printf("inserisci un numero b\n");
+scanf("%d", &b);
+int risultato = a / b;
+printf("divisione di a e b: %d/n", risultato);
 }
