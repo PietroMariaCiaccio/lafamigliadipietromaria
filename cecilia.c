@@ -3,21 +3,17 @@
 int main ()
 {
 int a;
-int b;
 
-printf("inserire due valori\n");
-scanf("%d %d", &a, &b);
+printf("inserire eta\n");
+scanf("%d", &a);
 
-if(a > b)
+if(a >= 18)
 {
-   printf("a è maggiore di b\n");
+   printf("utente maggiorenne\n");
 }
-else if(a == b)
-{
-   printf("a è uguale a b\n");
-}
+
 else
 {
-   printf("a è minore di b\n");
+   printf("utente minorenne\n");
 }
 }
